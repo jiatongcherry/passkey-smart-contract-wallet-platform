@@ -7,8 +7,8 @@ import { ECDSASigValue } from "@peculiar/asn1-ecc";
 import { concatUint8Arrays } from "@/utils/arrayConcat";
 import { CreateCredential, P256Credential, P256Signature } from "@/libs/web-authn/types";
 import { shouldRemoveLeadingZero } from "@/utils/removeLeadingZero";
-import { startRegistration } from "@simplewebauthn/browser";
-import { generateRegistrationOptions } from "@simplewebauthn/server";
+// import { startRegistration } from "@simplewebauthn/browser";
+// import { generateRegistrationOptions } from "@simplewebauthn/server";
 
 export * from "@/libs/web-authn/types";
 
