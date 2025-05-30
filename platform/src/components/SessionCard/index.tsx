@@ -6,6 +6,7 @@ import { useWalletConnect, IWCReactSession } from "@/libs/wallet-connect";
 import Spinner from "../Spinner";
 import { LinkBreak2Icon } from "@radix-ui/react-icons";
 import styled from "@emotion/styled";
+import Image from 'next/image';
 
 interface IProps {
   wcReactSession: IWCReactSession;
@@ -42,7 +43,13 @@ export default function SessionCard({ wcReactSession }: IProps) {
     <Card style={{ width: "100%" }}>
       <Flex gap="1" width={"100%"} justify={"between"} align={"center"}>
         <Flex gap="3">
-          <img src={icons[0]} alt="test" width={50} height={50} />
+          <Image
+            src={icons[0]}
+            alt="test"
+            width={50}
+            height={50}
+            style={{ borderRadius: "10px" }}
+          />
           <Flex direction={"column"}>
             <Name>{name}</Name>
             <Link href={url}>{truncate(url?.split("https://")[1] ?? "Unknown", 23)}</Link>

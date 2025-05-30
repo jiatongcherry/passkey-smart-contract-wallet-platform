@@ -1,6 +1,7 @@
 import ReactQrReader from "react-qr-reader-es6";
 import { Text, TextField, Button, Flex, Card, Link, Callout } from "@radix-ui/themes";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 import {
   CheckCircledIcon,
   ExclamationTriangleIcon,
@@ -29,7 +30,7 @@ export default function QrReaderModal() {
         onStart: (pairingTopic) => {
           setPairingTopic(pairingTopic);
         },
-        onSuccess: (pairingTopic) => {},
+        onSuccess: (pairingTopic) => { },
         onError: (error) => {
           setPairingTopic(null);
           setIsLoading(false);
@@ -90,7 +91,17 @@ export default function QrReaderModal() {
               align={"center"}
               style={{ padding: "2rem" }}
             >
-              <img src={icons[0]} alt="test" width={100} style={{ borderRadius: "10px" }} />
+              <Image
+                src={icons[0]}
+                alt="test"
+                width={100}
+                height={100}
+                style={{
+                  borderRadius: "10px",
+                  width: '100px',
+                  height: 'auto'
+                }}
+              />
               <Flex direction={"column"} align={"center"}>
                 <Text align={"center"} size={"5"}>
                   {name}
