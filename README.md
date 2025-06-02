@@ -16,7 +16,7 @@
      node -v   npm -v
   node.js install: https://nodejs.org/en/download/
   2. create a project
-     ```bash
+     
      npx create-next-app@latest --typescript passkey-smart-conrtact-wallet-platform
 ## Installation & Usage
 
