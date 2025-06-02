@@ -10,7 +10,15 @@
   - Language: Solidity
   - Tools: Foundry & Infura.io & Etherscan
 
-
+## Pre-requests
+  1. check node and npm
+     ```bash
+     node -v   npm -v
+  node.js install: https://nodejs.org/en/download/
+  2. create a project
+    ```bash
+    npx create-next-app@latest --javascript social-media-platform
+   
 ## Installation & Usage
 
 #### Platform
