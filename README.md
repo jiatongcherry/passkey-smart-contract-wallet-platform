@@ -19,6 +19,9 @@
   2. create a project
      ```bash
      npx create-next-app@latest --typescript passkey-smart-conrtact-wallet-platform
+  3. If you need nodejs-typescript backend
+     https://medium.com/@vihangamallawaarachchi.dev/setting-up-a-node-js-and-express-backend-with-typescript-a-comprehensive-guide-b15fad5c803c
+
 ## Installation & Usage
 
 #### Platform
