@@ -49,7 +49,7 @@ export default function NavBar() {
           alignItems: "center",
           justifyContent: "center",
         }}
-        onClick={}
+        onClick={() => {}}
       >
         Crypto Trend Adviser
         <CornersIcon style={{ width: 20, height: 20 }} />
