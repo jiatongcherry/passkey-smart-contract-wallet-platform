@@ -40,6 +40,20 @@ export default function NavBar() {
         Connect a dApp
         <CornersIcon style={{ width: 20, height: 20 }} />
       </Button>
+      <Button
+        size="4"
+        variant="outline"
+        style={{
+          width: "300px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        onClick={}
+      >
+        Crypto Trend Adviser
+        <CornersIcon style={{ width: 20, height: 20 }} />
+      </Button>
     </Flex>
   );
 }
