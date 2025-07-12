@@ -226,7 +226,7 @@ export default function SendTxModal() {
                       required
                       pattern="0x[a-fA-F0-9]{40}|[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)*\.eth"
                       title="an ethereum address or a valid ENS name"
-                      placeholder="ENS or address"
+                      placeholder="Wallet address"
                       size={"3"}
                       value={userInputDestination}
                       onChange={handleUserInputDestination}
