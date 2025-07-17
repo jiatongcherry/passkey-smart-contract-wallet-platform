@@ -12,8 +12,7 @@ export default function History() {
     <Callout.Root style={{ marginTop: "var(--space-2)" }}>
       <LogoAnimatedLight style={{ width: "25%", marginBottom: ".2rem" }} />
       <Callout.Text size = "2">
-        You smart contract wallet is deployed during the first transaction that you make. You can
-        still receive tokens and ETH on your smart contract wallet address in the meantime.
+        SecureWeb3 Wallet: Your Gateway to Cryptocurrency  Enjoy your journey in Web3.0 world!
       </Callout.Text>
       <Flex direction="row" gap="1" justify="between">
         <Button
