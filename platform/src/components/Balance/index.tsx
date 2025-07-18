@@ -40,19 +40,19 @@ export default function Balance() {
   return (
     <Flex style={css} direction="row" justify="center">
       <Text highContrast={true} weight="bold" size="9">
-        USD 28.89
+        USD 28
       </Text>
       <Text highContrast={true} weight="bold" size="6" style={{ color: "var(--accent-12)" }}>
-        .{(decimals || "00").slice(0, 2)}
+        .{("89" || "00").slice(0, 2)}
       </Text>
       
       <Text style={{ width: '16px' }} />
       
        <Text highContrast={true} weight="bold" size="9">
-        ETH 0.008
+        ETH 0
       </Text>
       <Text highContrast={true} weight="bold" size="6" style={{ color: "var(--accent-12)" }}>
-        .{(decimals || "000").slice(0, 3)}
+        .{("008" || "000").slice(0, 3)}
       </Text>
     </Flex>
   );
