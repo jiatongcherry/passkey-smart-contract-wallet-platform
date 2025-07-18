@@ -101,12 +101,7 @@ export default function CryptoLockLogo({ style }: Props) {
         stroke="white"
         strokeWidth="2"
       />
-{/*       <path 
-        d="M50 50L70 50L70 70L50 70L50 50Z" 
-        fill="#3C78D8"
-        stroke="white"
-        strokeWidth="1"
-      /> */}
+
         <circle 
         cx="60" 
         cy="60" 
@@ -116,16 +111,16 @@ export default function CryptoLockLogo({ style }: Props) {
         strokeWidth="1"
       />
       
-      {/* Lock Symbol (top right corner) */}
-      <g transform="translate(70 20)">
-        <rect x="10" y="20" width="15" height="15" rx="2" fill="#1A237E" />
-        <rect x="20" y="10" width="10" height="10" fill="#1A237E" />
-        <circle cx="25" cy="32" r="3" fill="#3C78D8" />
-        <path 
-          d="M23 30h4v4h-4z" 
-          fill="#1A237E" 
-        />
-      </g>
+     <rect
+        x="56" 
+        y="56" 
+        width="8" 
+        height="8" 
+        fill="#3C78D8"
+        stroke="white"
+        strokeWidth="1"
+        rx="1" // Optional: slight rounding of corners
+      />
     </svg>
   );
 }
