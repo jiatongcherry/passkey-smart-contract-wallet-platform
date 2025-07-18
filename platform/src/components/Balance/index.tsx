@@ -20,6 +20,9 @@ export default function Balance() {
       <Text highContrast={true} weight="bold" size="6" style={{ color: "var(--accent-12)" }}>
         .{(decimals || "00").slice(0, 2)}
       </Text>
+      
+      <Text style={{ width: '16px' }} />
+      
        <Text highContrast={true} weight="bold" size="9">
         ETH {intBalance}
       </Text>
