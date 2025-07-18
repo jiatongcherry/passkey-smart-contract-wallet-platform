@@ -78,7 +78,7 @@ export default function NavBar() {
     text: "Bitcoin (BTC)",
   },
   {
-    image: "https://img.icons8.com/color/48/000000/ethereum.png",
+    image: "https://cryptofonts.com/img/icons/eth.svg",
     text: "Ethereum (ETH)",
   },
   {
@@ -90,19 +90,19 @@ export default function NavBar() {
     text: "Solana (SOL)",
   },
   {
-    image: "https://pixabay.com/zh/vectors/bnb-binance-binance-currency-logo-6219388/",
+    image: "https://cryptofonts.com/img/icons/bnb.svg",
     text: "Binance Coin (BNB)",
   },
   {
-    image: "",
+    image: "https://cryptofonts.com/img/icons/trx.svg",
     text: "Tron (TRX)",
   },
   {
-    image: "",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png",
     text: "Dogecoin (DOGE)",
   },
   {
-    image: "https://assets.coingecko.com/coins/images/3890/large/matic.png?1595348880",
+    image: "https://cryptofonts.com/img/icons/xlm.svg",
     text: "Stellar (XLM)",
   },
 ];
