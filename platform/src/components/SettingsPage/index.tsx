@@ -36,8 +36,7 @@ export default function SettingsPage() {
           Your Wallet
         </Heading>
         <Flex direction="column" width={"100%"} align={"start"} gap={"2"}>
-          <Text>On Sepolia testnet only</Text>
-          <Text>Click to copy your public key</Text>
+          <Text>Click to copy your public key (On Sepolia testnet only)</Text>
           <Flex style={{ width: "100%" }} align={"center"} gap="2" justify={"between"}>
             <Tooltip content="Copied!" open={isCopied}>
               <Button
