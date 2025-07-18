@@ -74,46 +74,50 @@
 //   );
 // }
 import { CSSProperties, useRef, useState } from "react";
-import "./logo-animated.css";
 
 type Props = {
   style?: CSSProperties;
 };
 
-export default function BitcoinLockLogo({ style }: Props) {
+export default function CryptoLockLogo({ style }: Props) {
   const [increment, setIncrement] = useState(0);
 
   return (
     <svg
       key={increment}
       style={style}
-      viewBox="0 0 200 200"
+      viewBox="0 0 120 120"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       onClick={() => setIncrement(increment + 1)}
     >
-      {/* Bitcoin Circle */}
-      <circle cx="100" cy="100" r="80" fill="#F7931A" />
+      {/* Blue Crypto Circle */}
+      <circle cx="60" cy="60" r="50" fill="#3C78D8" />
       
-      {/* Bitcoin "B" Symbol */}
+      {/* Abstract Crypto Symbol */}
       <path 
-        d="M100 60C111 60 120 69 120 80C120 86 117 91 112 94C117 97 120 102 120 108C120 119 111 128 100 128C89 128 80 119 80 108C80 102 83 97 88 94C83 91 80 86 80 80C80 69 89 60 100 60ZM100 64C91 64 84 71 84 80C84 89 91 96 100 96C109 96 116 89 116 80C116 71 109 64 100 64ZM100 100C91 100 84 107 84 116C84 125 91 132 100 132C109 132 116 125 116 116C116 107 109 100 100 100Z" 
+        d="M60 40L80 60L60 80L40 60L60 40Z" 
         fill="white"
+        stroke="white"
+        strokeWidth="3"
+      />
+      <path 
+        d="M50 50L70 50L70 70L50 70L50 50Z" 
+        fill="#3C78D8"
+        stroke="white"
+        strokeWidth="2"
       />
       
-      {/* Lock Symbol (positioned at top right) */}
-      <g transform="translate(120 40)">
-        <rect x="10" y="20" width="40" height="30" rx="5" fill="#2C3E50" />
-        <rect x="20" y="10" width="20" height="10" fill="#2C3E50" />
-        <circle cx="30" cy="40" r="8" fill="#F7931A" />
-        <rect x="25" y="35" width="10" height="10" fill="#2C3E50" />
+      {/* Lock Symbol (top right corner) */}
+      <g transform="translate(70 20)">
+        <rect x="10" y="20" width="30" height="25" rx="4" fill="#1A237E" />
+        <rect x="20" y="10" width="10" height="10" fill="#1A237E" />
+        <circle cx="25" cy="32" r="5" fill="#3C78D8" />
+        <path 
+          d="M23 30h4v4h-4z" 
+          fill="#1A237E" 
+        />
       </g>
-      
-      {/* Optional blockchain lines for crypto feel */}
-      <path d="M40 140H160" stroke="#F7931A" strokeWidth="3" />
-      <path d="M40 160H160" stroke="#F7931A" strokeWidth="3" />
-      <path d="M60 120V180" stroke="#F7931A" strokeWidth="3" />
-      <path d="M140 120V180" stroke="#F7931A" strokeWidth="3" />
     </svg>
   );
 }
