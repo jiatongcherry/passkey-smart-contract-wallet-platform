@@ -90,20 +90,20 @@ export default function NavBar() {
     text: "Solana (SOL)",
   },
   {
-    image: "https://assets.coingecko.com/coins/images/12162/large/polkadot.png?1595047687",
-    text: "Polkadot (DOT)",
+    image: "https://pixabay.com/zh/vectors/bnb-binance-binance-currency-logo-6219388/",
+    text: "Binance Coin (BNB)",
   },
   {
-    image: "https://assets.coingecko.com/coins/images/52/large/xrp.png?1605773310",
-    text: "Ripple (XRP)",
+    image: "",
+    text: "Tron (TRX)",
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png",
+    image: "",
     text: "Dogecoin (DOGE)",
   },
   {
     image: "https://assets.coingecko.com/coins/images/3890/large/matic.png?1595348880",
-    text: "Polygon (MATIC)",
+    text: "Stellar (XLM)",
   },
 ];
 
