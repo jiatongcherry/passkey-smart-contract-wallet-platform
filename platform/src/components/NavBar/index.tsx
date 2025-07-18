@@ -78,7 +78,7 @@ export default function NavBar() {
     text: "Bitcoin (BTC)",
   },
   {
-    image: "https://assets.coingecko.com/coins/images/2790/large/ethereum.png?1595348880",
+    image: "https://img.icons8.com/color/48/000000/ethereum.png",
     text: "Ethereum (ETH)",
   },
   {
@@ -98,7 +98,7 @@ export default function NavBar() {
     text: "Ripple (XRP)",
   },
   {
-    image: "https://assets.coingecko.com/coins/images/92/large/dogecoin.png?1547792207",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png",
     text: "Dogecoin (DOGE)",
   },
   {
