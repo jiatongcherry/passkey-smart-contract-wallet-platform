@@ -101,8 +101,16 @@ export default function CryptoLockLogo({ style }: Props) {
         stroke="white"
         strokeWidth="2"
       />
-      <path 
+{/*       <path 
         d="M50 50L70 50L70 70L50 70L50 50Z" 
+        fill="#3C78D8"
+        stroke="white"
+        strokeWidth="1"
+      /> */}
+        <circle 
+        cx="60" 
+        cy="60" 
+        r="7" 
         fill="#3C78D8"
         stroke="white"
         strokeWidth="1"
