@@ -90,7 +90,7 @@ export default function CryptoLockLogo({ style, text = "CryptoLock" }: Props) {
         textAnchor="middle" 
         fill="#3C78D8"
         fontFamily="Arial, sans-serif"
-        fontSize="14"
+        fontSize="12"
         fontWeight="bold"
       >
         SecureWeb3 Wallet
