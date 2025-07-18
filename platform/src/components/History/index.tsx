@@ -3,14 +3,12 @@
 import { Button, Flex, Callout } from "@radix-ui/themes";
 import { useMe } from "@/providers/MeProvider";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
-import LogoAnimatedLight from "../LogoAnimatedLight";
 
 export default function History() {
   const { me } = useMe();
 
   return (
-    <Callout.Root style={{ marginTop: "var(--space-2)" }}>
-      <LogoAnimatedLight style={{ width: "20%", marginBottom: ".2rem" }} />
+    <Callout.Root style={{ marginTop: "var(--space-1)" }}>
       <Callout.Text size = "2">
         SecureWeb3 Wallet: Your Gateway to Cryptocurrency  Enjoy your journey in Web3.0 world!
       </Callout.Text>
