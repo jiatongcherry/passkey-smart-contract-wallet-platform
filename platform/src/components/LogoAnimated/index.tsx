@@ -11,7 +11,7 @@ export default function CryptoLockLogo({ style }: Props) {
     <svg
       key={increment}
       style={style}
-      viewBox="0 0 120 120"
+      viewBox="0 0 100 100"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       onClick={() => setIncrement(increment + 1)}
