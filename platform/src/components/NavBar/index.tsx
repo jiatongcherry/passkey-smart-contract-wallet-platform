@@ -73,39 +73,39 @@ export default function NavBar() {
   const [showCryptoContent, setShowCryptoContent] = useState(false);
 
   const cryptoData = [
-    {
-      image: "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
-      text: "Bitcoin (BTC)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
-      text: "Ethereum (ETH)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/cardano-ada-logo.png",
-      text: "Cardano (ADA)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/solana-sol-logo.png",
-      text: "Solana (SOL)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
-      text: "Polkadot (DOT)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/xrp-xrp-logo.png",
-      text: "Ripple (XRP)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
-      text: "Dogecoin (DOGE)"
-    },
-    {
-      image: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-      text: "Polygon (MATIC)"
-    }
-  ];
+  {
+    image: "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+    text: "Bitcoin (BTC)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/2790/large/ethereum.png?1595348880",
+    text: "Ethereum (ETH)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/975/large/cardano.png?1608306880",
+    text: "Cardano (ADA)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/4128/large/solana.png?1644971031",
+    text: "Solana (SOL)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/12162/large/polkadot.png?1595047687",
+    text: "Polkadot (DOT)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/52/large/xrp.png?1605773310",
+    text: "Ripple (XRP)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/92/large/dogecoin.png?1547792207",
+    text: "Dogecoin (DOGE)",
+  },
+  {
+    image: "https://assets.coingecko.com/coins/images/3890/large/matic.png?1595348880",
+    text: "Polygon (MATIC)",
+  },
+];
 
   return (
     <Flex justify="center" align="center" direction="column" gap="4" style={{ marginInline: "2rem" }}>
@@ -120,22 +120,8 @@ export default function NavBar() {
         }}
         onClick={() => open(<SendTxModal />)}
       >
-        Send a transaction
+        Transfer ETH
         <PaperPlaneIcon />
-      </Button>
-      <Button
-        size="4"
-        variant="outline"
-        style={{
-          width: "300px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-        onClick={() => open(<QrReaderModal />)}
-      >
-        dApp Portal
-        <CornersIcon style={{ width: 20, height: 20 }} />
       </Button>
       <Button
         size="4"
