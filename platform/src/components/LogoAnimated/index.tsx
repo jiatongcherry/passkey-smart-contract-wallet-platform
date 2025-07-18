@@ -11,17 +11,17 @@ export default function CryptoLockLogo({ style }: Props) {
     <svg
       key={increment}
       style={style}
-      viewBox="0 0 100 100"
+      viewBox="0 0 120 120"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       onClick={() => setIncrement(increment + 1)}
     >
       {/* Blue Crypto Circle */}
-      <circle cx="60" cy="40" r="20" fill="#3C78D8" />
+      <circle cx="60" cy="60" r="20" fill="#3C78D8" />
       
       {/* Abstract Crypto Symbol */}
-      <path 
-        d="M60 30L75 40L60 50L45 40L60 30Z" 
+    <path 
+        d="M60 55L70 60L60 65L50 60L60 55Z" 
         fill="white"
         stroke="white"
         strokeWidth="2"
@@ -29,7 +29,7 @@ export default function CryptoLockLogo({ style }: Props) {
 
         <circle 
         cx="60" 
-        cy="40" 
+        cy="60" 
         r="7" 
         fill="#3C78D8"
         stroke="white"
@@ -38,7 +38,7 @@ export default function CryptoLockLogo({ style }: Props) {
       
      <rect
         x="56" 
-        y="36" 
+        y="56" 
         width="8" 
         height="8" 
         fill="#3C78D8"
