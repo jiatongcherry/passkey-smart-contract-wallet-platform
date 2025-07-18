@@ -76,34 +76,42 @@ export default function NavBar() {
   {
     image: "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
     text: "Bitcoin (BTC)",
+    trend: "UP"
   },
   {
     image: "https://cryptofonts.com/img/icons/eth.svg",
     text: "Ethereum (ETH)",
+    trend: "UP"
   },
   {
     image: "https://assets.coingecko.com/coins/images/975/large/cardano.png?1608306880",
     text: "Cardano (ADA)",
+    trend: "UP"
   },
   {
     image: "https://assets.coingecko.com/coins/images/4128/large/solana.png?1644971031",
     text: "Solana (SOL)",
+    trend: "DOWN"
   },
   {
     image: "https://cryptofonts.com/img/icons/bnb.svg",
     text: "Binance Coin (BNB)",
+    trend: "STABLE"
   },
   {
     image: "https://cryptofonts.com/img/icons/trx.svg",
     text: "Tron (TRX)",
+    trend: "DOWN"
   },
   {
     image: "https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png",
     text: "Dogecoin (DOGE)",
+    trend: "DOWN"
   },
   {
     image: "https://cryptofonts.com/img/icons/xlm.svg",
     text: "Stellar (XLM)",
+    trend: "STABLE"
   },
 ];
 
@@ -153,7 +161,7 @@ export default function NavBar() {
                   backgroundColor: "#f5f5f5"
                 }} 
               />
-              <span style={{ textAlign: "center", fontSize: "0.9rem" }}>{crypto.text}</span>
+              <span style={{ textAlign: "center", fontSize: "0.9rem" }}>{crypto.text} {crypto.trend}</span>
             </Flex>
           ))}
         </Flex>
