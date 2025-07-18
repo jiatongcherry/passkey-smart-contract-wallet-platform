@@ -104,7 +104,7 @@ export default function CryptoLockLogo({ style }: Props) {
 
         <circle 
         cx="60" 
-        cy="60" 
+        cy="40" 
         r="7" 
         fill="#3C78D8"
         stroke="white"
@@ -113,7 +113,7 @@ export default function CryptoLockLogo({ style }: Props) {
       
      <rect
         x="56" 
-        y="56" 
+        y="36" 
         width="8" 
         height="8" 
         fill="#3C78D8"
