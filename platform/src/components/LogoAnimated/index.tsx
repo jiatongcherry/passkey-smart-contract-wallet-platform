@@ -92,7 +92,7 @@ export default function CryptoLockLogo({ style }: Props) {
       onClick={() => setIncrement(increment + 1)}
     >
       {/* Blue Crypto Circle */}
-      <circle cx="60" cy="60" r="50" fill="#3C78D8" />
+      <circle cx="60" cy="60" r="25" fill="#3C78D8" />
       
       {/* Abstract Crypto Symbol */}
       <path 
@@ -110,9 +110,9 @@ export default function CryptoLockLogo({ style }: Props) {
       
       {/* Lock Symbol (top right corner) */}
       <g transform="translate(70 20)">
-        <rect x="10" y="20" width="30" height="25" rx="4" fill="#1A237E" />
+        <rect x="10" y="20" width="30" height="25" rx="2" fill="#1A237E" />
         <rect x="20" y="10" width="10" height="10" fill="#1A237E" />
-        <circle cx="25" cy="32" r="5" fill="#3C78D8" />
+        <circle cx="25" cy="32" r="3" fill="#3C78D8" />
         <path 
           d="M23 30h4v4h-4z" 
           fill="#1A237E" 
