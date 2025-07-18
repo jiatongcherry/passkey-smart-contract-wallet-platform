@@ -23,7 +23,7 @@ export default function History() {
             window.open(`https://sepolia.etherscan.io/address/${me?.account}`, "_blank");
           }}
         >
-          Browse history on etherscan
+          Wallet Transaction History
           <ArrowRightIcon />
         </Button>
       </Flex>
