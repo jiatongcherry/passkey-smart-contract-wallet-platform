@@ -10,7 +10,7 @@ export default function History() {
 
   return (
     <Callout.Root style={{ marginTop: "var(--space-2)" }}>
-      <LogoAnimatedLight style={{ width: "25%", marginBottom: ".2rem" }} />
+      <LogoAnimatedLight style={{ width: "20%", marginBottom: ".2rem" }} />
       <Callout.Text size = "2">
         SecureWeb3 Wallet: Your Gateway to Cryptocurrency  Enjoy your journey in Web3.0 world!
       </Callout.Text>
