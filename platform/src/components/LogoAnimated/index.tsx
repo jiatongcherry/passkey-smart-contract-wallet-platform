@@ -28,14 +28,15 @@ export default function CryptoLockLogo({ style }: Props) {
         strokeWidth="2"
       />
       
-      {/* Small Inner Circle (centered within diamond) */}
-      <circle 
-        cx="60" 
-        cy="60" 
-        r="7" 
+      <rect
+        x="56" 
+        y="56" 
+        width="8" 
+        height="8" 
         fill="#3C78D8"
         stroke="white"
         strokeWidth="1"
+        rx="1" // Optional: slight rounding of corners
       />
     </svg>
   );
