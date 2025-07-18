@@ -95,8 +95,8 @@ export default function CryptoLockLogo({ style }: Props) {
       <circle cx="60" cy="60" r="20" fill="#3C78D8" />
       
       {/* Abstract Crypto Symbol */}
-      <path 
-        d="M60 40L80 60L60 80L40 60L60 40Z" 
+       <path 
+        d="M60 50L75 60L60 70L45 60L60 50Z" 
         fill="white"
         stroke="white"
         strokeWidth="2"
