@@ -19,6 +19,7 @@ export default function ThemeButton({ style }: Props) {
   if (!mounted) return null;
 
   return (
+    <></>;
     // <IconButton
     //   style={style}
     //   variant={"soft"}
