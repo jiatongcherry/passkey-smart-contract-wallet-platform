@@ -17,9 +17,10 @@ export default function ThemeButton({ style }: Props) {
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
-
-  return (
-    <></>;
+  
+  return <></>;
+  // return (
+  //   <></>;
     // <IconButton
     //   style={style}
     //   variant={"soft"}
@@ -45,5 +46,5 @@ export default function ThemeButton({ style }: Props) {
     //     <MoonIcon />
     //   )}
     // </IconButton>
-  );
+  // );
 }
