@@ -40,7 +40,7 @@ export default function Balance() {
   return (
     <Flex style={css} direction="row" justify="center">
       <Text highContrast={true} weight="bold" size="9">
-        USD 35
+        USD 25
       </Text>
       <Text highContrast={true} weight="bold" size="6" style={{ color: "var(--accent-12)" }}>
         .{("58" || "00").slice(0, 2)}
@@ -52,7 +52,7 @@ export default function Balance() {
         ETH 0
       </Text>
       <Text highContrast={true} weight="bold" size="6" style={{ color: "var(--accent-12)" }}>
-        .{("010" || "000").slice(0, 3)}
+        .{("004" || "000").slice(0, 3)}
       </Text>
     </Flex>
   );
