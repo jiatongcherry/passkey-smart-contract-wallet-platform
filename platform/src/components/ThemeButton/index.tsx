@@ -19,30 +19,30 @@ export default function ThemeButton({ style }: Props) {
   if (!mounted) return null;
 
   return (
-    <IconButton
-      style={style}
-      variant={"soft"}
-      size={"3"}
-      onClick={() => {
-        if (theme === "system") {
-          setTheme(systemTheme === "dark" ? "light" : "dark");
-          return;
-        }
-        if (theme === "dark") {
-          setTheme("light");
-          return;
-        }
-        if (theme === "light") {
-          setTheme("dark");
-          return;
-        }
-      }}
-    >
-      {(theme === "system" && systemTheme === "dark") || theme === "dark" ? (
-        <SunIcon />
-      ) : (
-        <MoonIcon />
-      )}
-    </IconButton>
+    // <IconButton
+    //   style={style}
+    //   variant={"soft"}
+    //   size={"3"}
+    //   onClick={() => {
+    //     if (theme === "system") {
+    //       setTheme(systemTheme === "dark" ? "light" : "dark");
+    //       return;
+    //     }
+    //     if (theme === "dark") {
+    //       setTheme("light");
+    //       return;
+    //     }
+    //     if (theme === "light") {
+    //       setTheme("dark");
+    //       return;
+    //     }
+    //   }}
+    // >
+    //   {(theme === "system" && systemTheme === "dark") || theme === "dark" ? (
+    //     <SunIcon />
+    //   ) : (
+    //     <MoonIcon />
+    //   )}
+    // </IconButton>
   );
 }
